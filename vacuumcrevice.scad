@@ -30,11 +30,11 @@ nozzle_height_end = v_height - fit_tolerance_end;
 insertion_depth = 20; // mm
 
 // Straw tip dimensions
-straw_diameter = 7; // mm
+straw_diameter = 10; // mm
 straw_wall_thickness = 1.5; // mm (Adjust for strength vs. airflow)
 
 // Total length of the nozzle
-total_length = 200; // mm
+total_length = 100; // mm
 
 // Wall thickness for the main body of the adapter
 body_wall_thickness = 1.5; // mm
@@ -95,7 +95,7 @@ module custom_crevice_nozzle() {
         trapezoid_connector_tapered(
             nozzle_long_edge_start, nozzle_top_edge_start, nozzle_height_start,
             nozzle_long_edge_end, nozzle_top_edge_end, nozzle_height_end,
-            insertion_depth + body_wall_thickness
+            insertion_depth
         );
         
         // Inner void - also tapered to maintain consistent wall thickness
@@ -107,7 +107,7 @@ module custom_crevice_nozzle() {
                 nozzle_long_edge_end - 2 * body_wall_thickness,
                 nozzle_top_edge_end - 2 * body_wall_thickness,
                 nozzle_height_end - 2 * body_wall_thickness,
-                insertion_depth + body_wall_thickness + 0.02
+                insertion_depth + 0.02
             );
         }
     }
