@@ -16,7 +16,6 @@ This design has been created and tested for a precise fit on the following model
 
 The easiest way to get started is to download the pre-compiled `.STL` file, which is ready to be loaded into your favorite 3D printer slicer (e.g., Cura, PrusaSlicer, or Simplify3D).
 
-* Go to the **[Releases](https://github.com/YourUsername/YourRepository/releases)** section of this repository.
 * Download the `vacuumcrevice.stl` file from the latest release.
 
 ### Option 2: Use the OpenSCAD Source
@@ -35,12 +34,11 @@ For best results, here are some suggested settings for printing the tool:
 
 * **Material:** PLA is a great choice for this part.
 * **Layer Height:** 0.2mm is a good balance between speed and quality.
-* **Infill:** 15-20% is sufficient; the part doesn't need to be very strong.
-* **Supports:** This part is designed to be printed **without supports**, making it easy and efficient.
-* **Bed Adhesion:** A **brim** is highly recommended for this print. A brim is a single-layer outline that's attached to the base of your model, which increases the surface area and helps the part stick firmly to the print bed, preventing it from tipping over.
+* **Infill:** 15-20% is sufficient
+* **Supports:** This part is designed to be printed **without supports**.
+* **Bed Adhesion:** A **brim** is highly recommended for this print.
 * **Orientation:** Print the tool standing upright on the wider end to minimize overhangs and maximize stability.
 
-## 📸 Photo Gallery
 
 ## 📸 Photo Gallery
 
