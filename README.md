@@ -28,6 +28,11 @@ If you want to customize the design (e.g., change the length, wall thickness, or
 4.  Make your desired parameter modifications.
 5.  Render and export the model as an STL file (`.stl`).
 
+### Option 3: Get the model on Makerworld
+
+[Check out this model on MakerWorld](https://makerworld.com/en/models/1780720-ryobi-r18hv-vacuum-crevice-tool)
+
+
 ## ⚙️ Recommended Print Settings
 
 For best results, here are some suggested settings for printing the tool:
